@@ -23,13 +23,15 @@ GEM
     sqlite3 (1.4.2)
 
 PLATFORMS
+  ruby
   x86_64-darwin-19
   x86_64-darwin-20
 
 DEPENDENCIES
   pry (~> 0.14.1)
-  rspec (~> 3.10)
-  sqlite3 (~> 1.4)
+  rspec (~> 3.10.0)
+  rspec-core (~> 3.10.1)
+  sqlite3 (~> 1.4.2)
 
 BUNDLED WITH
    2.2.24
